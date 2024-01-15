@@ -12,19 +12,18 @@
         <h1>Basic Language Detector</h1>
         <center><hr></center>
         <label id="note">I can understand <i>"Hello, how are you?"</i> in the below listed languages</label>
-        <br>
         <ul>
-            <li>- English</li>
-            <li>- Hindi</li>
-            <li>- Spanish</li>
-            <li>- Indonesian</li>
-            <li>- Chinese</li>
+            <li>- English (Hello, how are you?)</li>
+            <li>- Hindi (Namaste, aap kaise hain?)</li>
+            <li>- Spanish (Hola, cómo estás)</li>
+            <li>- Indonesian (Halo apa kabarmu)</li>
+            <li>- Chinese (Nǐ hǎo ma)</li>
         </ul>
-        <button>Record My Voice!</button>
+        <button onclick="startClassification();">Record My Voice!</button>
         <h2>I can hear:</h2>
         <h1 id="language_h1">Your language</h1>
-        <h3>and I am <label id="confidence_lbl">blank</label> % sure</h3>
-        <h4 id="developer">Developed By Gaurik G.</h4>
+        <h3>and I am <label id="confidence_lbl">__</label> % sure</h3>
+        <h4 id="developer_footer">Developed By Gaurik G.</h4>
     </div>
 </body>
 </html>
