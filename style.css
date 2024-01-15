@@ -12,7 +12,7 @@ body{
 .heading{
     background-color:crimson;
     color: white;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
     text-align: center;
     width: 100%;
 }
@@ -23,17 +23,17 @@ button{
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 10px;
-    background-color: white;
+    background-color: #e34363;
     border: none;
     outline: none;
     font-weight: 700;
-    color: crimson;
-    transition: 1s;
+    color: white;
+    transition: 900ms;
     box-shadow: 1.5px 1.5px 5px #333;
 }
 button:hover{
-    color: white;
-    background-color: rgb(238, 138, 158);
+    color: crimson;
+    background-color: white;
     scale: 1.1;
     box-shadow: 3px 3px 2px #333;
 }
@@ -54,6 +54,13 @@ h2{
     font-size: 40px;
     text-transform: uppercase;
 }
-#developer{
-    margin-top: 125px;
+#developer_footer{
+    margin-top: 115px;
+    background-color: white;
+    color: crimson;
+    padding: 10px;
+    text-shadow: 0.5px 0.5px 2px #333 ;
+}
+ul{
+    margin-top: 12.5px;
 }
